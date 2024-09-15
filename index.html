@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Decisão crucial</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Você é um jovem estudante e joga pelo time de Vôlei da escola México. Você atua como central, qual sua especialidade?</p>
+            <button class="btn-proximo" data-proximo="1">Bloqueio</button>
+            <button class="btn-proximo" data-proximo="4">Jogadas rápidas</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você é um paredão no bloqueio! Deu diversos tocos nos jogadores do campeonato que está disputando e levou seu time para final! Escolha como será a final:</p>
+            <button class="btn-proximo" data-proximo="2">Eletrizante</button>
+            <button class="btn-proximo" data-proximo="5">Fácil</button>
+        </div>
+        <div class="passo" id="passo-2">
+        <p>Sua final é eletrizante! O primeiro set foi 25x23 para seu time e o segundo 25x23 para o adversário. Vocês foram para o tie break! No último ponto do tie break, o levantador do seu time deixa você finalizar o jogo, como você finaliza?</p>
+            <button class="btn-proximo" data-proximo="3">Cravar a bola no chão e achar petróleo</button>
+            <button class="btn-proximo" data-proximo="6">Largar consciente no buraco da quadra</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você cravou a bola no chão e ganhou o campeonato com seu time! Parabéns!</p>
+            </div>
+            <div class="passo" id="passo-5">
+                <p>A final do jogo foi fácil, você não precisou se esforçar e foi campeão com o seu time. Parabéns!</p>
+                </div>
+                <div class="passo" id="passo-6">
+                    <p>Você largou a bola no buraco da quadra, o líbero até tentou pegar, mas não conseguiu e vocês foram campeões!</p>
+                    </div>
+                    <div class="passo" id="passo-4">
+                        <p>Você é excelente em jogadas rápidas! Nenhum bloqueio te segura e você leva seu time para final do campeonato! Como será a final?</p>
+                        <button class="btn-proximo" data-proximo="8">Eletrizante</button>
+                        <button class="btn-proximo" data-proximo="9">Fácil</button>
+                    </div>
+                    <div class="passo" id="passo-8">
+                        <p>A final foi eletrizante, mas você foi mais ainda! Cravou todas as bolas com suas jogadas rápidas e consagrou seu time campeão! Parabéns!</p>
+                    </div>
+                    <div class="passo" id="passo-9">
+                        <p>A final foi tão fácil que você nem precisou entrar em quadra! Seu time ganhou com os reservas. Parabéns!</p>
+                    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
